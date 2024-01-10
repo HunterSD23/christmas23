@@ -1,0 +1,142 @@
+/* CSS Document */
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #AD0000;/* #AD0000 */
+}
+
+header {
+	height: 125px;
+}
+
+header img {
+	padding-left: 40%;
+	height: 250px;
+}
+
+#container {
+	width: 100%;
+	background-color: green;
+	min-height: 500px;
+	overflow: scroll;
+}
+
+#presents {
+	display: grid;
+	width: 100%;
+	margin: 0 auto;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-areas:
+		"it1 it2 it3"
+		"it4 ad  it5"
+		"it6 it7 it8"
+		"foot foot foot";
+	grid-gap: 2%;
+	justify-content: center; 
+	background-image: url("../images/hero-image.jpg");
+	background-size: cover;
+}
+
+#item1 {
+	grid-area: it1;
+	background-color: #00000099;
+	min-height: 400px;
+	background-image: url("../images/xbox-controller.png");
+	background-size: contain;
+}
+
+#item2 {
+	grid-area: it2;
+	background-color: #0000ff99;
+	min-height: 400px;
+	background-image: url("../images/ankle-weights.png");
+	background-size: contain;
+}
+#item3 {
+	grid-area: it3;
+	background-color: #0f000099;
+	min-height: 400px;
+	background-image: url("../images/crunchyroll-premium-gift-card.png");
+	background-size: contain;
+}
+#item4 {
+	grid-area: it4;
+	background-color: #f0f00f99;
+	min-height: 400px;
+	background-image: url("../images/acer-predator-gaming-desktop.png");
+	background-size: contain;
+}
+#ad {
+	grid-area: ad;
+	background-color: #f0000099;
+	min-height: 400px;
+	background-image: url("../images/santa-tracker.png");
+	background-size: contain;
+}
+
+#ad h1 {
+	background-color: #10BAE033;
+	margin: 2% 0;
+	padding-top: 1em; 
+	padding-bottom: 11em;
+	overflow: hide;
+}
+
+#ad h1:hover {
+	background-color: #10BAE0cc;
+}
+
+#item5 {
+	grid-area: it5;
+	background-color: #f0f00f99;
+	min-height: 400px;
+	background-image: url("../images/goku-blacks-potara-earrings.png");
+	background-size: contain;
+}
+#item6 {
+	grid-area: it6;
+	background-color: #00ffff99;
+	min-height: 400px;
+	background-image: url("../images/pokemon-violet-and-dlc.png");
+	background-size: cover;
+}
+#item7 {
+	grid-area: it7;
+	background-color: #ff00ff99;
+	min-height: 400px;
+	background-image: url("../images/goku-black-time-ring.png");
+	background-size: contain;
+	
+}
+#item8 {
+	grid-area: it8;
+	background-color: #faff3399;
+	min-height: 400px;
+	background-image: url("../images/super-mario-wonder.png");
+	background-size: contain;
+	
+}
+
+#foot {
+	grid-area: foot;
+	background-color: #97867099;
+	min-height: 200px;
+	color: #ffffff
+}
+
+header {
+	
+}
+
+
+
+footer p {
+	
+}
+
